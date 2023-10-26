@@ -15,7 +15,7 @@ const replacements = []; // Массив для хранения замен
 
 app.use(
   cors({
-    origin: '*',
+    origin: 'https://effervescent-crisp-8274a0.netlify.app',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
   })
